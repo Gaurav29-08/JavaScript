@@ -1,0 +1,18 @@
+var userName = "Tom";
+var userAge = 10;
+console.log(`username : ${userName}`);
+console.log(`userage : ${userAge}`);
+
+function greetUser(name){
+  var greet = "I hope you are doing fine";
+  console.log(`hello ${name},${greet}`);
+  var currentYear = 2030;
+  const year = currentYear-userAge;
+  return `your birth year is ${year}`;
+  
+}
+
+const birthYear = greetUser(userName);
+console.log(birthYear);
+
+

@@ -1,3 +1,2 @@
-console.log("gaurav");
 let document = "gaurav";
 console.log(document);
